@@ -1,0 +1,49 @@
+
+public class IfBoolean {
+
+    public static void main(String[] args) {
+
+        boolean sodaMachine = true;
+        int sodaCount = 0; 
+
+            if (sodaMachine) {
+                System.out.println("You successfully loaded your 5 soda cans into the machine.");
+                sodaCount = sodaCount + 5;
+            }
+
+            if (sodaMachine) {
+                System.out.println("You successfully loaded your 5 soda cans into the machine.");
+                sodaCount = sodaCount + 5;
+            }
+
+            if (sodaMachine) {
+                System.out.println("You successfully loaded your 5 soda cans into the machine.");
+                sodaCount = sodaCount + 5;
+            }
+
+            if (sodaMachine) {
+                System.out.println("You successfully loaded your 5 soda cans into the machine.");
+                sodaCount = sodaCount + 5;
+
+            }
+
+            if (sodaMachine) {
+                System.out.println("You successfully loaded your 5 soda cans into the machine.");
+                sodaCount = sodaCount + 5;
+            }
+
+            if (sodaMachine) {
+                System.out.println("You successfully loaded your 5 soda cans into the machine.");
+                sodaCount = sodaCount + 5;
+            }
+
+            if (sodaCount == 30) {
+                System.out.println("You successfully loaded the whole soda machine and it is now full.");
+            }
+            else {
+                System.out.println("The soda machine is not full.");
+            }
+
+    }
+
+}
